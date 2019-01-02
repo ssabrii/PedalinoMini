@@ -10,6 +10,7 @@ env:
     - PLATFORMIO_CI_SRC=.
 
 install:
+    - find . -name '*.js.gz'
     - pip install -U platformio
     - platformio update
 
